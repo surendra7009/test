@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Raleway:500);
+body{font-family: 'Raleway', sans-serif; background:#333;}
+
+.text-center{text-align:center;}
+input, button{font-family: 'Raleway', sans-serif;}
+input[type='text']{border:1px #CCCCCC solid; height:30px;  font-size:20px;}
+input[type='password']{border:1px #CCCCCC solid; height:30px;  font-size:20px;}
+button{background:#f2f2f2; border:1px solid #ccc;}
+
+/**helpers**/
+.float-left{float:left;}
+.float-right{float:right;}
+
+/**headers and typos**/
+h1{font-size:50px; color:#ff6e0c;}
+
+/**remove this one, this is just a base**/
+.just-base{display:block; margin:30px auto 0 auto; width:640px; height:1136px; border:#CCC solid 1px; box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.1); background:#fff;}
+
+.main-container{display:block; float:left; width:90%; padding:5%;}
+	.container{display:block; float:left; width:100%; margin-bottom:15px;}
+		.row{display:block; float:left; width:100%;}
+	
+/**logo**/
+.logo{text-align:center; margin-bottom:50px;}
+.logo img{width:50%; height:auto;}
+
+/**user login form**/
+.user-login-form{}
+.user-login-form .container{margin-bottom:50px;}
+.user-login-form .container input[type='text'], .user-login-form .container input[type='password']{width:94%; padding:3%; font-size:48px; height:80px; transition:.7s;}
+.user-login-form .container input[type='checkbox']{margin-top:20px;}
+.user-login-form .container input:focus{ box-shadow:0px 0px 30px 0 rgba(0, 0, 0, 0.2) inset}
+.user-login-form .container label{font-size:52px; float:left; width:100%; margin-bottom:15px; color:#999;}
+.user-login-form .container label span{font-size:26px;}
+
+/**Login button**/
+.login-button{width:100%; float:left; text-align:center; padding:4% 10%; border:none; border-bottom:10px #ffaa70 solid; color:#fff; background:url("../images/login-bg.png") no-repeat scroll -674px 0 #EE7625; font-size:70px; transition: background ease-out .4s;}
+.login-button:focus{border-bottom:0px #ffaa70 solid; margin-top:10px; background-position:-41px 0;}
+
+/**Dashboard Screen**/
+.dashboard-screen{border-bottom:#CCC solid 1px; padding-bottom:20px; margin-bottom:30px; height:100px; line-height:100px;}
+.dashboard-icon-container{}
+.dashboard-icon-box{float:left; width:30%; border-radius:10px;}
+.dashboard-icon-box a{display:block; float:left; width:80%; padding:15px 10%; text-align:center; text-decoration:none; color:#333; border-radius:10px; margin-bottom:50px;}
+.dashboard-icon-box a:hover{background:#efefef;}
+.dashboard-icon-box a:focus{box-shadow:inset 0 0 0 8px rgba(0,0,0,0.5);	}
+.dashboard-icon-box a span, .dashboard-icon-box a strong{display:block; float:left; width:100%;}
+.dashboard-icon-box a strong{margin-top:20px; min-height:40px; font-size:22px;}
+.dashboard-icon-box a span img{display:block; float:left; width:100%; height:auto;}
+
+.dashboard-icon-container .row .dashboard-icon-box:nth-child(2){margin-left:4.4%; margin-right:4.4%;}
+.dashboard-icon-container .row{margin-bottom:25px;}	
+
+
+
+/**Logout Button**/
+.logout-button{height: 100px; width: 100px; border-radius:50%; border:none; border-bottom:5px #666666 solid; font-size:20px; transition: background ease-out .4s; background:#efefef url(../images/icons/logout.png) no-repeat center top;}
+.logout-button:focus{margin-top:5px; border-bottom:0;}
+
+
+
+
